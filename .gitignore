@@ -1,0 +1,6 @@
+.DS_Store
+Thumbs.db
+
+# Source CV files kept locally only; assets/Yong_Ma_CV.pdf is the one served on the site
+/YONG_MA_CV.pdf
+/马勇简历2026__update.pdf
