@@ -229,9 +229,33 @@ p{ margin: 0; }
   padding: 1.4rem; box-shadow: var(--shadow); transition: transform .18s ease, box-shadow .18s ease;
 }
 .proj-card:hover, .award-card:hover{ transform: translateY(-4px); box-shadow: var(--shadow-lg); }
-.proj-date{ font-size: .78rem; font-weight:700; color: var(--accent); text-transform:uppercase; letter-spacing:.05em; }
+.proj-date{ display:flex; align-items:center; gap: .5rem; font-size: .78rem; font-weight:700; color: var(--accent); text-transform:uppercase; letter-spacing:.05em; }
 .proj-card h4{ font-size: 1.02rem; margin: .5rem 0 .6rem; }
 .proj-card p{ color: var(--text-muted); font-size: .92rem; }
+
+.badge-progress{ background: var(--bg-alt); color: var(--text-muted); border: 1px solid var(--border); }
+
+/* ============ Future directions ============ */
+.direction-list{ display:flex; flex-direction:column; gap: 1.3rem; margin-top: 1.6rem; }
+.direction-card{
+  background: var(--surface); border:1px solid var(--border); border-radius: var(--radius);
+  padding: 1.6rem; box-shadow: var(--shadow); transition: transform .18s ease, box-shadow .18s ease;
+}
+.direction-card:hover{ transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.direction-tag{
+  display:inline-block; font-size: .72rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: .3rem .7rem; margin-bottom: .7rem;
+}
+.direction-card h4{ font-size: 1.1rem; margin-bottom: .5rem; }
+.direction-card > p{ color: var(--text-muted); font-size: .93rem; max-width: 68ch; margin-bottom: 1rem; }
+.modality-list{
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: .5rem 1.5rem;
+  padding: 1rem 1.1rem; background: var(--bg-alt); border-radius: var(--radius-sm); margin-bottom: .9rem;
+}
+.modality-list li{ font-size: .87rem; color: var(--text-muted); }
+.modality-list strong{ color: var(--text); font-weight:700; margin-right: .4rem; }
+.direction-ref{ font-size: .8rem; color: var(--text-faint); }
+.direction-ref em{ font-style: italic; }
 
 .award-icon{ margin-bottom: .8rem; color: var(--gold); }
 .award-icon svg{ width: 30px; height: 30px; }
