@@ -154,8 +154,6 @@ p{ margin: 0; }
 .side-socials a:hover{ color: var(--accent); }
 .side-socials svg{ width:16px; height:16px; }
 
-.side-cv{ width:100%; margin-bottom: 2rem; }
-
 .side-nav{ display:flex; flex-direction:column; gap: .15rem; width:100%; border-top: 1px solid var(--border); padding-top: 1.3rem; }
 .side-nav a{
   padding: .55rem .7rem; border-radius: 8px; font-size: .9rem; font-weight:500;
@@ -163,20 +161,6 @@ p{ margin: 0; }
 }
 .side-nav a:hover{ color: var(--text); background: var(--bg-alt); }
 .side-nav a.active{ color: var(--accent); background: var(--accent-soft); font-weight:600; }
-
-/* ============ Buttons ============ */
-.btn{
-  display:inline-flex; align-items:center; justify-content:center;
-  padding: .8rem 1.5rem; border-radius: 999px;
-  font-weight:600; font-size:.95rem; letter-spacing:.01em;
-  transition: transform .15s ease, box-shadow .2s ease, background .2s ease, color .2s ease, border-color .2s ease;
-  border: 1px solid transparent; cursor:pointer;
-}
-.btn-primary{
-  background: var(--accent); color: #fff;
-  box-shadow: var(--shadow);
-}
-.btn-primary:hover{ transform: translateY(-2px); box-shadow: var(--shadow-lg); background: var(--accent-2); }
 
 /* ============ Content ============ */
 .content{ flex: 1; min-width: 0; }
@@ -312,7 +296,6 @@ p{ margin: 0; }
   .side-name{ font-size: 1.3rem; margin-bottom:.15rem; }
   .side-tagline{ margin-bottom:0; }
   .side-meta, .side-socials{ width:auto; flex-direction:row; flex-wrap:wrap; gap: 1.1rem; margin: 1rem 0 0; }
-  .side-cv{ width:auto; margin: 1rem 0 0; order:1; }
   .side-nav{
     width:100%; flex-direction:row; flex-wrap:wrap; border-top:none; padding-top: 1.3rem;
     margin-top: .3rem; border-top: 1px solid var(--border);

@@ -9,8 +9,8 @@ Built with plain HTML/CSS/JS (no build step) — ready to deploy on GitHub Pages
 ```
 index.html        Main page
 css/style.css      Styles (light/dark theme via CSS variables)
-js/main.js         Nav toggle, theme toggle, scroll reveal animations
-assets/            CV PDF
+js/main.js         Theme toggle, scrollspy, scroll reveal animations
+assets/images/     Profile photo
 ```
 
 ## Local preview
