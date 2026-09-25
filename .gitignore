@@ -7,3 +7,6 @@ Thumbs.db
 
 # Raw source photo kept locally only; assets/images/profile.jpg is the cropped one served on the site
 /yong_ma.jpg
+
+# Accidental nested clone of this same repo; never track it as a submodule
+/WAM-YOMAR.github.io/
